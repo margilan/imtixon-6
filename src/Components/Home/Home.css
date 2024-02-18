@@ -1,0 +1,89 @@
+.text{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.text h2{
+    font-size: 3.0rem;
+    line-height: 1;
+    letter-spacing: -.025em;
+    font-weight: 700;
+    opacity: 0.95;
+    color: rgb(128, 128, 131);
+}
+.two-text h4{
+    width: 576px;
+    height: 96px;
+    color:#394E6A;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.hr{
+    width: 1000px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.btnn{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.btnn button{
+    width: 138px;
+    height: 48px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    color:white;
+    border-radius: 7px;
+    background: blue;
+    transition: all 0.5s;
+}
+.btnn button:active{
+    transform: scale(1.2);
+}
+.textt h2{
+    margin-top: 80px;
+    margin-left: 90px;
+    width: 629px;
+    height: 36px;
+    font-size: 35px;
+    color:rgb(136, 133, 133)
+}
+.cards{
+    /* margin-left: 90px; */
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 320px;
+    padding: 5px;
+    padding-bottom: 20px;
+    border:2px solid lightgray;
+    border-radius:8px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background: rgb(243, 243, 243);
+}
+.cards:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 10px 10px lightgray;
+}
+.cardss{
+    display: flex;
+    margin-left: 90px;
+    max-width: 50%;
+    gap: 70px;
+}
+.cards img{
+    width: 303px;
+    background: none;
+    height: 192px;
+}
+.cards h3{
+    color:rgb(102, 102, 102);
+    margin-left: 65px;
+}
+.cards h4{
+    margin-left: 120px;
+    color:rgb(102, 102, 102);
+    margin-top: 10px;
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form input{
+    width: 252px;
+    height: 32px;
+    padding: 10px;
+    outline-color:blue;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    align-items: center;
+}
+.wrappper{
+    width: 1220px;
+    margin: 0px auto;
+}
+.form{
+    /* margin-left: -100px;
+    margin-top: 20px; */
+    gap: 30px;
+    display: flex;
+    margin: 30px auto;
+    width: 1000px;
+    padding-left: 100px;
+}
+.select{
+    width: 241px;
+    height: 32px;
+    padding: 0px 32px  0px 12px;
+    border:1px solid lightgray ;
+    border-radius:6px;
+    cursor: pointer;
+}
+.selectt{
+    width: 241px;
+    height: 32px;
+    padding: 0px 32px  0px 12px;
+    border:1px solid lightgray ;
+    border-radius:6px;
+    cursor: pointer;
+}
+
+.btn-onee {
+    width: 221px;
+    height: 32px;
+    font-size: 15px;
+    cursor: pointer;
+    border:1px solid lightgray;
+    color: white;
+    background: blue;
+    border-radius:6px;
+    
+}
+.btn-two{
+    width: 221px;
+    margin-left: 15px;
+    height: 32px;
+    font-size: 15px;
+    cursor: pointer;
+    border:1px solid lightgray;
+    color: white;
+    background: rgb(168, 84, 84);
+    border-radius:6px;    
+}
+.buttons{
+    margin-top: 40px;
+    margin-left: 380px;
+}
+.cardlar img{
+    width: 303px;
+    background: none;
+    height: 192px;
+}
+.cardlar{
+    width: 315px;
+    border:2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius:10px;
+    padding: 10px 10px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+.cardlar:hover{
+    transform: scale(1.1);
+    box-shadow:10px 10px 10px lightgray;
+}
+.loading{
+    font-size: 40px;
+}
+.cardlar h3{
+    color:rgb(102, 102, 102);
+}
+.cardlar h4{
+    color:rgb(102, 102, 102);
+    margin-top: 10px;
+}
+.cardssss{
+    flex-wrap: wrap;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-bottom: -300px;
+    gap: 10px;
+}

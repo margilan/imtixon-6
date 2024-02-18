@@ -1,0 +1,54 @@
+{
+    "en": {
+      "translation": {
+        "hello": "Dark mode",
+        "home" : "Home",
+        "bug":"We Love",
+        "about":"About",
+        "product":"Product",
+        "title" :   "We are changing the way people shop",
+        "btn":"Our Products",
+        "titl":"Featured Products",
+        "comfy":"Comfy",
+        "ham":"all",
+        "onebtn":"Search",
+        "twobtn":"Reset",
+        "save":"Save"
+      }
+    },
+    "ru": {
+        "translation": {
+          "hello": "Tемный ",
+          "product":"Продукт",
+          "bug":"Мы любим",
+          "home" : "Дом",
+          "about":"OWE",
+          "title":"Mы меняем способ совершения покупок",
+          "btn" : "Nаши продукты",
+          "titl": "Рекомендуемые продукты",
+          "comfy":"Удобный",
+          "ham":"Все",
+          "onebtn":"Серах",
+          "twobtn":"Перезагрузить",
+          "save":"Сохранять"
+
+        }
+      },
+    "uz": {
+      "translation": {
+        "hello": "Qorongu",
+        "about":"Haqida",
+        "bug":"Biz sevamiz",
+        "product":"Mahsulot",
+        "home" : "Asosiy",
+        "title" : "Biz odamlarning xarid qilish uslubini o'zgartirmoqdamiz",
+        "btn" : "MAHSULOTLARIMIZ",
+        "titl":"Tanlangan Mahsulotlar",
+        "comfy":"Qulay",
+        "ham":"Hammasi",
+        "onebtn":"Qidirish",
+        "twobtn":"Qayta",
+        "save":"Saqlash"
+      }
+    }
+  }

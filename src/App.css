@@ -1,0 +1,102 @@
+.one{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: all 0.5s;
+    height: 30px;
+}
+.one:hover{
+    background: rgb(156, 154, 154);
+    border-radius:3px;
+}
+body {
+    transition: background-color 0.5s, color 0.5s; /* o'zgartirishlar animatsiyasining tezligi */
+    color:white;
+  }
+  
+  body.dark-mode {
+    background-color: #383838;
+    color: #ffffff;
+  }
+  body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p {
+  color: #ffffff; /* Matn rangini oq qilish */}
+  body.dark-mode .info span,
+body.dark-mode .info h3 {
+  color: black; /* "DARK MODE" va "Save" matnlarining rangini oq qilish */
+}
+.btn{
+    width: 50px;
+    height: 40px;
+    background: blue;
+    color:white;
+    font-size: 1.875rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: -4px;
+    margin-left: 100px;
+}
+.navlivk{
+    margin-left: 300px;
+    display: flex;
+    gap: 30px;
+}
+.active{
+    background: #000;
+    color:white
+}
+.two{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: all 0.5s;
+    height: 30px;
+    
+}
+.two:hover{
+    background: rgb(156, 154, 154);
+}
+.active{
+    background: #000;
+    color:white
+}
+.three{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    transition: all 0.5s;
+    height: 30px;
+}
+.three:hover{
+    background: rgb(156, 154, 154);
+}
+.active{
+    background: #535353;
+    color:white;
+    border-radius:4px;
+    padding:2px 3px ;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+    background: #e5e7eb;
+    width: 100%;
+    padding-top: 10px;
+    height: 55px;
+    align-items: center;
+}
+.info{
+    margin-left: 250px;
+    display: flex;
+    align-items:center;
+    gap: 20px;
+    font-size: 15px;
+    margin-top: -7px;
+    cursor: pointer;
+}
