@@ -1,0 +1,18 @@
+.wrapppper{
+    color:black;
+    margin-left: 550px;
+}
+.betnnnnnnnn{
+    width: 50%;
+    background: red;
+    height: 30px;
+    border: 2px solid lightgray;
+    color:white;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+body.dark-mode h3 ,
+body.dark-mode h4 {
+    color:black;
+}  

@@ -27,8 +27,13 @@ body.dark-mode h6,
 body.dark-mode p {
   color: #ffffff; /* Matn rangini oq qilish */}
   body.dark-mode .info span,
-body.dark-mode .info h3 {
+body.dark-mode .info h3 , 
+body.dark-mode .info span
+{
   color: black; /* "DARK MODE" va "Save" matnlarining rangini oq qilish */
+}
+body.Light-mode span {
+    color:white;
 }
 .btn{
     width: 50px;
@@ -43,7 +48,7 @@ body.dark-mode .info h3 {
     margin-left: 100px;
 }
 .navlivk{
-    margin-left: 300px;
+    margin-left: 330px;
     display: flex;
     gap: 30px;
 }
@@ -92,10 +97,10 @@ body.dark-mode .info h3 {
     align-items: center;
 }
 .info{
-    margin-left: 250px;
+    margin-left: 100px;
     display: flex;
     align-items:center;
-    gap: 20px;
+    gap: 10px;
     font-size: 15px;
     margin-top: -7px;
     cursor: pointer;

@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Product from './Components/Products/Product';
+import Card from './Components/Card/Card'
 
 function App() {
   const [lang, setLang] = useState('en');
@@ -43,15 +44,18 @@ function App() {
               <NavLink className='one' to='/Products'>
                 {t('product')}
               </NavLink>
+              <NavLink className='one' to='/Card'>
+                {t('Card')}
+              </NavLink>
             </div>
             <div className='info'>
-              <span onClick={handleToggleDarkMode}>        {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}</span>
+              <span onClick={handleToggleDarkMode}>{darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}</span>
               <h3>{t('save')}</h3>
               <li>
                 <select onChange={(e) => handleChangeLang(e)} value={lang}>
-                  <option value='uz'>uz</option>
-                  <option value='ru'>ru</option>
-                  <option value='en'>en</option>
+                  <option value='uz'>Uzbek</option>
+                  <option value='ru'>Rus</option>
+                  <option value='en'>English</option>
                 </select>
               </li>
             </div>
@@ -61,6 +65,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
           <Route path='/Products' element={<Product />} />
+          <Route path='/Card' element={<Card />} />
         </Routes>
       </BrowserRouter>
     </>
